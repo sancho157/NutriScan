@@ -66,9 +66,7 @@ src/
 ├── types/            # Definições de tipos TypeScript
 assets/               # Imagens e ícones locais
 📸 Capturas de Tela
-![historico](https://github.com/user-attachments/assets/01d15b0d-fa5e-4490-b2a1-e1effd610139)
-![favoritos](https://github.com/user-attachments/assets/56b9fc8f-f200-4e2c-a269-70433ff07c20)
-![tela inicial](https://github.com/user-attachments/assets/22030775-c6f8-4116-866d-d5103af61cce)
+<div align="center"> <img src="https://github.com/user-attachments/assets/22030775-c6f8-4116-866d-d5103af61cce" alt="Tela inicial" width="200" /> <img src="https://github.com/user-attachments/assets/56b9fc8f-f200-4e2c-a269-70433ff07c20" alt="Favoritos" width="200" /> <img src="https://github.com/user-attachments/assets/01d15b0d-fa5e-4490-b2a1-e1effd610139" alt="Histórico" width="200" /> </div>
 
 
 🔧 Melhorias Futuras
