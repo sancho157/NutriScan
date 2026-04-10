@@ -1,0 +1,16 @@
+[
+  {
+    "code": "7891234567890",
+    "product_name": "Biscoito Integral",
+    "brands": "Marca Saúde",
+    "ingredients_text": "Farinha integral, aveia, mel",
+    "nutriscore_grade": "b"
+  },
+  {
+    "code": "7899876543210",
+    "product_name": "Refrigerante de Guaraná",
+    "brands": "Fruki",
+    "ingredients_text": "Água, açúcar, extrato de guaraná",
+    "nutriscore_grade": "e"
+  }
+]
