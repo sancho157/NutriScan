@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Nutri Scan",
-    "slug": "Nutri scan",
+    "name": "NutriScan",
+    "slug": "NutriScan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
