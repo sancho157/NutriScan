@@ -67,7 +67,20 @@ const styles = StyleSheet.create({
   container: { flex: 1 },
   list: { padding: 16 },
   card: { padding: 16, borderRadius: 12, marginBottom: 12 },
-  name: { fontSize: 16, fontWeight: 'bold' },
-  brand: { fontSize: 14, marginTop: 4 },
-  emptyText: { textAlign: 'center', marginTop: 40, fontSize: 16 },
+  name: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold',
+  },
+  brand: {
+    fontSize: 14,
+    marginTop: 4,
+    fontFamily: 'Inter_400Regular',
+  },
+  emptyText: {
+    textAlign: 'center',
+    marginTop: 40,
+    fontSize: 16,
+    fontFamily: 'Inter_400Regular',
+  },
 });

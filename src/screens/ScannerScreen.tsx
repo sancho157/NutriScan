@@ -35,10 +35,10 @@ export const ScannerScreen = () => {
   };
 
   if (hasPermission === null) {
-    return <Text style={{ color: colors.text }}>Solicitando permissão da câmera...</Text>;
+    return <Text style={[styles.permissionText, { color: colors.text }]}>Solicitando permissão da câmera...</Text>;
   }
   if (hasPermission === false) {
-    return <Text style={{ color: colors.text }}>Sem acesso à câmera</Text>;
+    return <Text style={[styles.permissionText, { color: colors.text }]}>Sem acesso à câmera</Text>;
   }
 
   return (
@@ -59,4 +59,10 @@ export const ScannerScreen = () => {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   camera: { flex: 1 },
+  permissionText: {
+    fontSize: 16,
+    fontFamily: 'Inter_400Regular',
+    textAlign: 'center',
+    marginTop: 20,
+  },
 });

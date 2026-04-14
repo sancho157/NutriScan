@@ -84,7 +84,7 @@ export const StatisticsScreen = () => {
       </Text>
 
       <Text style={[styles.title, { color: colors.text }]}>
-        Distribuicao Nutri-Score
+        Distribuição Nutri-Score
       </Text>
       {nutriScoreData.some(d => d.value > 0) ? (
         <BarChart
@@ -106,7 +106,7 @@ export const StatisticsScreen = () => {
       )}
 
       <Text style={[styles.title, { color: colors.text, marginTop: 30 }]}>
-        Evolucao (ultimos 7 dias)
+        Evolução (últimos 7 dias)
       </Text>
       {weeklyData.some(d => d.value > 0) ? (
         <BarChart
@@ -123,7 +123,7 @@ export const StatisticsScreen = () => {
         />
       ) : (
         <Text style={[styles.emptyText, { color: colors.textSecondary }]}>
-          Nenhum escaneamento nos ultimos 7 dias.
+          Nenhum escaneamento nos últimos 7 dias.
         </Text>
       )}
     </ScrollView>
@@ -133,7 +133,24 @@ export const StatisticsScreen = () => {
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  totalText: { fontSize: 16, fontWeight: '600', textAlign: 'center', marginBottom: 20 },
-  title: { fontSize: 18, fontWeight: 'bold', marginBottom: 20, textAlign: 'center' },
-  emptyText: { textAlign: 'center', marginTop: 20, fontSize: 14 },
+  totalText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    fontFamily: 'Inter_700Bold',
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  emptyText: {
+    textAlign: 'center',
+    marginTop: 20,
+    fontSize: 14,
+    fontFamily: 'Inter_400Regular',
+  },
 });
